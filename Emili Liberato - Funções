@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    body {background-color: #C6FFF4;}
+    h1 {color: #831E1E;
+        text-align: center;
+    }
+    </style>
+    <h1>EXERCÍCIOS PW - EMILI LIBERATO - 3IPIIEM</h1>
+    <?php
+        echo "Atividade PW - FUNÇÕES";
+
+        echo "<hr>";
+
+        echo "Soma";
+        function Soma($n1, $n2){
+            $valor  = $n1 + $n2;
+            return $valor;
+        }
+
+        echo "<br>"; 
+        $valor =  Soma(11, 21);
+        echo "O valor da soma é " . $valor;
+
+        echo "<hr>";
+
+
+        echo "Subtração";
+        function Subtracao($n3, $n4){
+            $valor  = $n3 - $n4;
+            return $valor;
+        }
+
+        echo "<br>"; 
+        $valor =  Subtracao(21, 11);
+        echo "O valor da subtração é " . $valor;
+
+        echo "<hr>";
+
+
+        echo "Divisão";
+        function Divisao($n5, $n6){
+            $valor  = $n5 / $n6;
+            return $valor;
+        }
+
+        echo "<br>"; 
+        $valor =  Divisao(22, 11);
+        echo "O valor da divisão é " . $valor;
+
+        echo "<hr>";
+
+
+        echo "Multiplicação";
+        function Multiplicacao($n7, $n8){
+            $valor  = $n7 * $n8;
+            return $valor;
+        }
+
+        echo "<br>"; 
+        $valor =  Multiplicacao(22, 111);
+        echo "O valor da multiplicação é " . $valor;
+
+
+
+    ?>
+</body>
+</html>
