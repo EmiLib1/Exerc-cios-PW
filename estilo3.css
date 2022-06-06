@@ -1,0 +1,13 @@
+html body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(30, 35, 44);
+}
+p {
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid rgb(0, 0, 0); 
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}

@@ -1,0 +1,50 @@
+.formulario{
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #bee7ea;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+}
+html body {
+    background-color: rgb(15, 30, 56);
+}
+label{
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=text],
+input[type=number],
+textarea{
+    width: 50%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: small;
+}
+input[type=submit]{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    font-style: oblique;
+}
